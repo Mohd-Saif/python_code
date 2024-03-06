@@ -1,0 +1,40 @@
+Set your user name and email globally:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+To get the name:
+git config --get user.name
+
+To get the email:
+git config --get user.email
+
+#for single 
+
+git init myproject
+cd myproject
+git add .
+git commit -m"importing all file" 
+
+# collaborative git
+git checkout master
+git commit -a -m "my new logo"
+git push
+
+git checkout -b newfeature
+git commit -a -m "my feature code "
+git push origin newfeature
+
+git pull
+git maege newfeature
+
+
+# Advance version
+
+git add -p MYReport.mrkdown
+git commit -m "added letest statistics
+
+git log --g --graph -- decorator --abbrev
+
+commit -all --pretty=oneline
+
+
